@@ -1,23 +1,4 @@
 #!/usr/bin/env python3
-"""
-physics_calculator.py
-A simple interactive Physics Formula Calculator for Class 12 PCM students.
-
-Features:
-- Kinematics (v = u + at, s = ut + 1/2 a t^2, v^2 = u^2 + 2as)
-- Projectile motion (range, time of flight, max height)
-- Circular motion (centripetal acceleration)
-- Basic vector operations (dot product, magnitude)
-- Basic calculus helper: derivative of position -> velocity (symbolic example using sympy if available)
-
-How to run:
-    python physics_calculator.py
-"""
-
-import math
-import sys
-
-# Optional: try to import sympy for symbolic calculus helpers
 try:
     import sympy as sp
     SYMPY_AVAILABLE = True
